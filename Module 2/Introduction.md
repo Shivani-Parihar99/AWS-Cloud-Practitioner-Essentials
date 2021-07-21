@@ -14,3 +14,5 @@ By comparison, with an Amazon EC2 instance you can use a virtual server to run a
 * You can stop using it when you have finished running a workload.
 * You pay only for the compute time you use when an instance is running, not when it is stopped or terminated.
 * You can save costs by paying only for server capacity that you need or want.
+
+
