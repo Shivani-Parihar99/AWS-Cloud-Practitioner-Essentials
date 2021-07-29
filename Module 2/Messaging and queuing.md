@@ -18,3 +18,9 @@ When designing applications on AWS, you can take a microservices approach with s
 Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. This is similar to the coffee shop; the cashier provides coffee orders to the barista who makes the drinks.
 
 In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options. 
+
+**Amazon Simple Queue Service (Amazon SQS)**
+
+Amazon Simple Queue Service (Amazon SQS) is a message queuing service. 
+
+Using Amazon SQS, you can send, store, and receive messages between software components, without losing messages or requiring other services to be available. In Amazon SQS, an application sends messages into a queue. A user or service retrieves a message from the queue, processes it, and then deletes it from the queue.
