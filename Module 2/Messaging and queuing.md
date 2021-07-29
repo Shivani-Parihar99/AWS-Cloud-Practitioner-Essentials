@@ -12,3 +12,9 @@ In this approach to application architecture, if a single component fails, other
 In a microservices approach, application components are loosely coupled. In this case, if a single component fails, the other components continue to work because they are communicating with each other. The loose coupling prevents the entire application from failing. 
 
 When designing applications on AWS, you can take a microservices approach with services and components that fulfill different functions. Two services facilitate application integration: Amazon Simple Notification Service (Amazon SNS) and Amazon Simple Queue Service (Amazon SQS).
+
+**Amazon Simple Notification Service (Amazon SNS)**
+
+Amazon Simple Notification Service (Amazon SNS) is a publish/subscribe service. Using Amazon SNS topics, a publisher publishes messages to subscribers. This is similar to the coffee shop; the cashier provides coffee orders to the barista who makes the drinks.
+
+In Amazon SNS, subscribers can be web servers, email addresses, AWS Lambda functions, or several other options. 
