@@ -25,3 +25,11 @@ While using AWS Lambda, you pay only for the compute time that you consume. Char
 For example, a simple Lambda function might involve automatically resizing uploaded images to the AWS Cloud. In this case, the function triggers when uploading a new image. 
 
 **How AWS Lambda works**
+
+1 You upload your code to Lambda. 
+
+2 You set your code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
+
+3 Lambda runs your code only when triggered.
+
+4 You pay only for the compute time that you use. In the previous example of resizing images, you would pay only for the compute time that you use when uploading new images. Uploading the images triggers Lambda to run code for the image resizing function.
