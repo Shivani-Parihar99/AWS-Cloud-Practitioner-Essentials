@@ -30,6 +30,14 @@ For example, a simple Lambda function might involve automatically resizing uploa
 
 2 You set your code to trigger from an event source, such as AWS services, mobile applications, or HTTP endpoints.
 
+
+
 3 Lambda runs your code only when triggered.
 
 4 You pay only for the compute time that you use. In the previous example of resizing images, you would pay only for the compute time that you use when uploading new images. Uploading the images triggers Lambda to run code for the image resizing function.
+
+# In AWS, you can also build and run containerized applications.
+
+**Containers**
+
+Containers provide you with a standard way to package your application's code and dependencies into a single object. You can also use containers for processes and workflows in which there are essential requirements for security, reliability, and scalability.
