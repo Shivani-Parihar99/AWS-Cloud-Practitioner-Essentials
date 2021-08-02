@@ -9,4 +9,3 @@ During Modules 1–10, you will build your AWS Cloud knowledge by learning about
 
 In the final Module 11, you will learn about the structure of the AWS Certified Cloud Practitioner exam. You will also review strategies that help you to increase the probability of passing the exam.
 
-You will then conclude the course with a final 30-question assessment and a brief survey.
