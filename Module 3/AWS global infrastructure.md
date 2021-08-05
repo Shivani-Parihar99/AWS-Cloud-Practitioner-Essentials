@@ -24,6 +24,6 @@ Suppose that your developers want to build an application that uses Amazon Brake
 
 Suppose that you are considering running applications in both the United States and Brazil. The way Brazil’s tax structure is set up, it might cost 50% more to run the same workload out of the São Paulo Region compared to the Oregon Region. You will learn in more detail that several factors determine pricing, but for now know that the cost of services can vary from Region to Region.
 
-
+# Availability Zones
 
 
