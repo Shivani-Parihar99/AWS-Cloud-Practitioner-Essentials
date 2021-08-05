@@ -30,8 +30,16 @@ An Availability Zone is a single data center or a group of data centers within a
 
 # Running Amazon EC2 instances in multiple Availability Zones
 
-**Amazon EC2 instance in a single Availability Zone**
+**1. Amazon EC2 instance in a single Availability Zone**
 
 Suppose that you’re running an application on a single Amazon EC2 instance in the Northern California Region. The instance is running in the us-west-1a Availability Zone. If us-west-1a were to fail, you would lose your instance. 
+
+**2. Amazon EC2 instances in multiple Availability Zones**
+
+A best practice is to run applications across at least two Availability Zones in a Region. In this example, you might choose to run a second Amazon EC2 instance in us-west-1b.
+
+**3. Availability Zone failure**
+
+If us-west-1a were to fail, your application would still be running in us-west-1b.
 
 
