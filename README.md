@@ -1,5 +1,5 @@
 # Introduction to AWS-Cloud-Practitioner-Essentials
-**Course overview**
+# Course overview
 
 During Modules 1–10, you will build your AWS Cloud knowledge by learning about AWS Cloud concepts, AWS services, security, architecture, pricing, and support. 
 
