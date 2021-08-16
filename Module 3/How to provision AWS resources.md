@@ -32,3 +32,5 @@ With AWS Elastic Beanstalk, you provide code and configuration settings, and Ela
 * Load balancing
 * Automatic scaling
 * Application health monitoring
+
+# AWS CloudFormation
