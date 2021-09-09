@@ -12,4 +12,8 @@ This is similar to how you can use AWS networking services to isolate resources 
 
 In the coffee shop, you can think of the counter area as a VPC. The counter area divides into two separate areas for the cashier’s workstation and the barista’s workstation. In a VPC, subnets are separate areas that are used to group together resources.
 
+# Subnets
+
+A subnet is a section of a VPC in which you can group resources based on security or operational needs. Subnets can be public or private. 
+
 
