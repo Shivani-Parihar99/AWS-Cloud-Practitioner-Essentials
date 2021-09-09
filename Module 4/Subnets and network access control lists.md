@@ -8,4 +8,8 @@ Suppose that some customers try to skip the cashier line and give their orders d
 
 To fix this, the owners of the coffee shop divide the counter area by placing the cashier and the barista in separate workstations. The cashier’s workstation is public facing and designed to receive customers. The barista’s area is private. The barista can still receive orders from the cashier but not directly from customers.
 
+This is similar to how you can use AWS networking services to isolate resources and determine exactly how network traffic flows.
+
+In the coffee shop, you can think of the counter area as a VPC. The counter area divides into two separate areas for the cashier’s workstation and the barista’s workstation. In a VPC, subnets are separate areas that are used to group together resources.
+
 
