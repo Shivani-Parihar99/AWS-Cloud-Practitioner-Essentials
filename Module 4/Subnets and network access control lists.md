@@ -30,7 +30,7 @@ It enters into a VPC through an internet gateway. Before a packet can enter into
 
 The VPC component that checks packet permissions for subnets is a network access control list (ACL).
 
-Network access control lists (ACLs)
+# Network access control lists (ACLs)
 
 A network access control list (ACL) is a virtual firewall that controls inbound and outbound traffic at the subnet level.
 
