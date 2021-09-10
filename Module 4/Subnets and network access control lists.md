@@ -51,5 +51,15 @@ After a packet has entered a subnet, it must have its permissions evaluated for 
 
 The VPC component that checks packet permissions for an Amazon EC2 instance is a security group.
 
+# Security groups
+
+A security group is a virtual firewall that controls inbound and outbound traffic for an Amazon EC2 instance.
+
+By default, a security group denies all inbound traffic and allows all outbound traffic. You can add custom rules to configure which traffic to allow or deny.
+
+For this example, suppose that you are in an apartment building with a door attendant who greets guests in the lobby. You can think of the guests as packets and the door attendant as a security group. As guests arrive, the door attendant checks a list to ensure they can enter the building. However, the door attendant does not check the list again when guests are exiting the building
+
+If you have multiple Amazon EC2 instances within a subnet, you can associate them with the same security group or use different security groups for each instance. 
+
 
 
