@@ -47,4 +47,9 @@ Network ACLs perform stateless packet filtering. They remember nothing and check
 Recall the previous example of a traveler who wants to enter into a different country. This is similar to sending a request out from an Amazon EC2 instance and to the internet.
 
 When a packet response for that request comes back to the subnet, the network ACL does not remember your previous request. The network ACL checks the packet response against its list of rules to determine whether to allow or deny.
+After a packet has entered a subnet, it must have its permissions evaluated for resources within the subnet, such as Amazon EC2 instances. 
+
+The VPC component that checks packet permissions for an Amazon EC2 instance is a security group.
+
+
 
